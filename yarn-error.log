@@ -1,0 +1,43 @@
+Arguments: 
+  /home/aio/.nvm/versions/node/v8.11.3/bin/node /usr/bin/yarn add node-json-db
+
+PATH: 
+  /opt/firefox/firefox:/home/aio/.nvm/versions/node/v8.11.3/bin:/opt/firefox/firefox:/home/aio/.local/bin:/opt/firefox/firefox:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/aio/.dotnet/tools
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  8.11.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.3.tgz: ENOSPC: no space left on device, write
+
+npm manifest: 
+  {
+    "name": "websockets-chat",
+    "version": "1.0.0",
+    "main": "handler.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "nodemon try.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "keywords": [],
+    "description": "",
+    "dependencies": {
+      "aws-sdk": "^2.404.0",
+      "axios": "^0.19.0",
+      "serverless-websockets-plugin": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
